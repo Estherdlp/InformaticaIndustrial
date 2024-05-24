@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rosservice" type="rosservice" name="rosservice" args="call /reset"/>
+  <!-- Choose between triangle, square, circle and pentagon-->
+  <node name="turtle_draw_cpp" pkg="turtle_draw_pkg" type="turtle_draw" output="screen" args="pentagon"/>
+</launch>
