@@ -1,0 +1,3 @@
+<launch>
+  <node name="maze_navigation_cpp" pkg="maze_navigation" type="maze_navigation" output="screen"/>
+</launch>
